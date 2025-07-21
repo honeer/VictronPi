@@ -1,0 +1,174 @@
+{
+  "window_title": "VictronPi Interface",
+  "window_width": 800,
+  "window_height": 480,
+  "navbar_height_px": 80,
+  "font_family": "Consolas",
+  "font_size": 18,
+  "off_color": "#FF5D62",
+  "on_color": "#98BB6C",
+  "button_bg": "#363646",
+  "navbar_bg": "#2A2A37",
+  "root_bg": "#16161D",
+  "nav_text_color": "#DCD7DA",
+  "grid_rows": 2,
+  "grid_cols": 4,
+  "grid_gap_px": 5,
+  "gpio_options": [
+    2,
+    3,
+    4,
+    17,
+    27,
+    22,
+    5,
+    6,
+    13,
+    19,
+    26
+  ],
+  "relay_pins": [
+    26,
+    19,
+    13,
+    6,
+    5,
+    22,
+    27,
+    17
+  ],
+  "info_widgets": [
+    {
+      "title": "Voltage",
+      "value": "--"
+    },
+    {
+      "title": "SoC",
+      "value": "--"
+    },
+    {
+      "title": "Power",
+      "value": "--"
+    },
+    {
+      "title": "Remaining",
+      "value": "--"
+    }
+  ],
+  "button_labels": [
+    "LED (L)",
+    "LED (R)",
+    "LED (M)",
+    "Fan",
+    "Solar",
+    "Pump (Main)",
+    "Pump (WC)",
+    "Outlet"
+  ],
+  "current_theme": "Kanagawa",
+  "current_language": "English",
+  "themes": {
+    "Kanagawa": {},
+    "Solarized": {},
+    "Dracula": {},
+    "Light": {}
+  },
+  "languages": {
+    "English": {
+      "select_language": "Select Language:",
+      "rename_buttons": "Rename Buttons:",
+      "save_settings": "Save",
+      "settings_saved": "Settings have been saved successfully!",
+      "widget_Voltage": "Voltage",
+      "widget_SoC": "SoC",
+      "widget_Power": "Power",
+      "widget_Remaining": "Remaining",
+      "pages": [
+        "Home",
+        "Dashboard",
+        "Settings",
+        "Debug"
+      ]
+    },
+    "Swedish": {
+      "select_language": "V\u00e4lj spr\u00e5k:",
+      "rename_buttons": "Byt namn p\u00e5 knappar:",
+      "save_settings": "Spara",
+      "settings_saved": "Inst\u00e4llningarna har sparats!",
+      "widget_Voltage": "Sp\u00e4nning",
+      "widget_SoC": "Batteristatus",
+      "widget_Power": "Effekt",
+      "widget_Remaining": "\u00c5terst\u00e5r",
+      "pages": [
+        "Hem",
+        "Instrumentpanel",
+        "Inst\u00e4llningar",
+        "Debug"
+      ]
+    },
+    "Lithuanian": {
+      "select_language": "Pasirinkite kalb\u0105:",
+      "rename_buttons": "Pervardyti mygtukai:",
+      "save_settings": "I\u0161saugoti",
+      "settings_saved": "Nustatymai s\u0117kmingai i\u0161saugoti!",
+      "widget_Voltage": "\u012etampa",
+      "widget_SoC": "Baterija",
+      "widget_Power": "Galia",
+      "widget_Remaining": "Likutis",
+      "pages": [
+        "Namai",
+        "Informacija",
+        "Nustatymai",
+        "Debug"
+      ]
+    },
+    "Spanish": {
+      "select_language": "Seleccionar idioma:",
+      "rename_buttons": "Cambiar nombres de botones:",
+      "save_settings": "Guardar configuraci\u00f3n",
+      "settings_saved": "\u00a1La configuraci\u00f3n se ha guardado correctamente!",
+      "widget_Voltage": "Voltaje",
+      "widget_SoC": "Estado de bater\u00eda",
+      "widget_Power": "Potencia",
+      "widget_Remaining": "Restante",
+      "pages": [
+        "Inicio",
+        "Panel",
+        "Configuraci\u00f3n",
+        "Depuraci\u00f3n"
+      ]
+    },
+    "French": {
+      "select_language": "S\u00e9lectionner la langue\u00a0:",
+      "rename_buttons": "Renommer les boutons\u00a0:",
+      "save_settings": "Enregistrer",
+      "settings_saved": "Les param\u00e8tres ont \u00e9t\u00e9 enregistr\u00e9s avec succ\u00e8s !",
+      "widget_Voltage": "Tension",
+      "widget_SoC": "\u00c9tat de charge",
+      "widget_Power": "Puissance",
+      "widget_Remaining": "Restant",
+      "pages": [
+        "Accueil",
+        "Tableau de bord",
+        "Param\u00e8tres",
+        "Debug"
+      ]
+    },
+    "German": {
+      "select_language": "Sprache w\u00e4hlen:",
+      "rename_buttons": "Schaltfl\u00e4chen umbenennen:",
+      "save_settings": "Einstellungen speichern",
+      "settings_saved": "Die Einstellungen wurden erfolgreich gespeichert!",
+      "widget_Voltage": "Spannung",
+      "widget_SoC": "Batteriestand",
+      "widget_Power": "Leistung",
+      "widget_Remaining": "Verbleibend",
+      "pages": [
+        "Startseite",
+        "Dashboard",
+        "Einstellungen",
+        "Debug"
+      ]
+    }
+  }
+}
